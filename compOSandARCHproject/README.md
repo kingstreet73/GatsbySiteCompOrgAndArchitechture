@@ -53,6 +53,6 @@ Rename `.env.example` to `.env.development` and update accordingly
 | GATSBY_AUTH0_AUDIENCE     | `https://<my-tenant-name>.us.auth0.com/api/v2/` |
 
 Assuming all steps followed and you have everything set up to run gatsby (gatsby-cli, node.js, etc)
-do nvm install
+do npm install
 use scripts such as npm run start
 or just call gatsby develop straight up.
