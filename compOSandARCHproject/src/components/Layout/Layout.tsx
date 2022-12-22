@@ -54,7 +54,7 @@ const Layout: React.FC = ({ children }) => {
                 {isAuthenticated ? (
                   <a
                     className="nav-link px-3"
-                    onClick={() => logout({ returnTo: window.location.origin })}
+                    onClick={() => logout({client_id: process.env.GATSBY_AUTH0_CLIENT_ID, returnTo: "http://localhost:8000"})}
                   >
                     Log out
                   </a>
